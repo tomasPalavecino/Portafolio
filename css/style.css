@@ -425,7 +425,7 @@ input[type="submit"]{
     }
 
     .contenedor-sobre-nosotros{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin: 20px 0 30px;
@@ -434,7 +434,8 @@ input[type="submit"]{
         width: 70%;
     }
     .imagenes-about-us{
-        width: 60%;
+        width: 50%;
+        margin-bottom: 40px;
     }
 
     .contenido-textos{
@@ -443,7 +444,7 @@ input[type="submit"]{
         align-items: center;
     }
     .contenido-textos span{
-        margin-bottom: 3px;
+        margin-bottom: 10px;
         padding: 4px;
     }
 
