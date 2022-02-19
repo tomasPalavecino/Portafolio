@@ -543,7 +543,7 @@ input[type="submit"]{
     #lenguajes{
         height: 450px;
     }
-    #slider{
+    #lenguajes #slider{
         height: 75vw !important;
     }
 }
