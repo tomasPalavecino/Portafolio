@@ -512,14 +512,39 @@ input[type="submit"]{
 }
 
 @media screen and (max-width: 400px){
+    .contenedor{
+        padding: 50px 0;
+    }
     .textos-header{
         width: 90% !important;
         height: 320px;
         margin: 0 auto;
     }
 
+    .portafolio{
+        height: 650px;
+    }
+
     .contenido-textos h3{
         font-size: 17px;
+    }
+
+    .businessName{
+        font-size: 26px;
+    }
+    .enlace{
+        width: 80%;
+    }
+    .enlace a{
+        width: 8em;
+        font-size: 12px;
+    }
+
+    .lenguajes{
+        height: 450px;
+    }
+    #slider{
+        height: 75px;
     }
 }
 
