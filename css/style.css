@@ -544,7 +544,7 @@ input[type="submit"]{
         height: 450px;
     }
     #slider{
-        height: 75px;
+        height: 75vw;
     }
 }
 
