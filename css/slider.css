@@ -272,58 +272,58 @@
 
 
 
-  @media (max-width:600px){
+  @media (max-width:450px){
+    #s1:checked ~ #slide4, #s2:checked ~ #slide5,
+    #s3:checked ~ #slide1, #s4:checked ~ #slide2,
+    #s5:checked ~ #slide3{
+      opacity: .1;
+      transform: translate3d(-50% , 0, -200px);
+    }
+
+    #s1:checked ~ #slide5, #s2:checked ~ #slide1,
+    #s3:checked ~ #slide2, #s4:checked ~ #slide3,
+    #s5:checked ~ #slide4{
+      opacity: .8;
+      transform: translate3d(-70% , 0, -100px);
+    }
+
+
+    #s1:checked ~ #slide2, #s2:checked ~ #slide3,
+    #s3:checked ~ #slide4, #s4:checked ~ #slide5,
+    #s5:checked ~ #slide1{
+      opacity: .8;
+      transform: translate3d(70% , 0, -100px);
+    }
+    
+
+    #s1:checked ~ #slide3, #s2:checked ~ #slide4,
+    #s3:checked ~ #slide5, #s4:checked ~ #slide1,
+    #s5:checked ~ #slide2{
+      opacity: .1;
+      transform: translate3d(50% , 0, -200px);
+    }
+  }
+
+
+
+  @media (max-width:350px){
     #s1:checked ~ #slide4, #s2:checked ~ #slide5,
   #s3:checked ~ #slide1, #s4:checked ~ #slide2,
   #s5:checked ~ #slide3{
-    opacity: .1;
     transform: translate3d(-50% , 0, -200px);
   }
 
   #s1:checked ~ #slide5, #s2:checked ~ #slide1,
   #s3:checked ~ #slide2, #s4:checked ~ #slide3,
   #s5:checked ~ #slide4{
-    opacity: .8;
-    transform: translate3d(-70% , 0, -100px);
-  }
-
-
-  #s1:checked ~ #slide2, #s2:checked ~ #slide3,
-  #s3:checked ~ #slide4, #s4:checked ~ #slide5,
-  #s5:checked ~ #slide1{
-    opacity: .8;
-    transform: translate3d(70% , 0, -100px);
-  }
-  
-
-  #s1:checked ~ #slide3, #s2:checked ~ #slide4,
-  #s3:checked ~ #slide5, #s4:checked ~ #slide1,
-  #s5:checked ~ #slide2{
-    opacity: .1;
-    transform: translate3d(50% , 0, -200px);
-  }
-  }
-
-
-
-  @media (max-width:600px){
-    #s1:checked ~ #slide4, #s2:checked ~ #slide5,
-  #s3:checked ~ #slide1, #s4:checked ~ #slide2,
-  #s5:checked ~ #slide3{
-    transform: translate3d(-50% , 0, -200px);
-  }
-
-  #s1:checked ~ #slide5, #s2:checked ~ #slide1,
-  #s3:checked ~ #slide2, #s4:checked ~ #slide3,
-  #s5:checked ~ #slide4{
-    transform: translate3d(-65% , 0, -180px);
+    transform: translate3d(-60% , 0, -180px);
   }
   
 
   #s1:checked ~ #slide2, #s2:checked ~ #slide3,
   #s3:checked ~ #slide4, #s4:checked ~ #slide5,
   #s5:checked ~ #slide1{
-    transform: translate3d(65% , 0, -180px);
+    transform: translate3d(60% , 0, -180px);
   }
   
 
@@ -372,7 +372,7 @@
 
 
 
-@media (max-width:350px){
+@media screen and (max-width:350px){
   #s1:checked ~ #slide4, #s2:checked ~ #slide5,
   #s3:checked ~ #slide1, #s4:checked ~ #slide2,
   #s5:checked ~ #slide3{
