@@ -455,6 +455,10 @@ input[type="submit"]{
         height: 650px;
     }
 
+    #lenguajes{
+        min-width: 400px;
+    }
+
 }
 
 @media screen and (max-width:800px){
@@ -463,6 +467,10 @@ input[type="submit"]{
     }
     .portafolio{
         height: 600px;
+    }
+
+    #slider{
+        height: 30vw;
     }
 }
 
@@ -511,6 +519,10 @@ input[type="submit"]{
     }
     .portafolio{
         height: 62.5em;
+    }
+    
+    #slider{
+        height: 40vw;
     }
 
     /* Footer */
