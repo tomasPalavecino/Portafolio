@@ -448,10 +448,11 @@ input[type="submit"]{
         padding: 4px;
     }
 
-
-    /* Galeria */
     .imagen-port{
         width: 44%;
+    }
+    .portafolio{
+        height: 650px;
     }
 
 }
@@ -508,6 +509,9 @@ input[type="submit"]{
         width: 90%;
         margin-top: 10px;
     }
+    .portafolio{
+        height: 62.5em;
+    }
 
     /* Footer */
     input[type="text"],
@@ -517,6 +521,22 @@ input[type="submit"]{
     }
     .titulo-footer{
         font-size: 42px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .portafolio{
+        height: 60em;
+    }
+}
+@media screen and (max-width:500px){
+    .portafolio{
+        height: 57em;
+    }
+}
+@media screen and (max-width:500px){
+    .portafolio{
+        height: 55em;
     }
 }
 
@@ -567,7 +587,12 @@ input[type="submit"]{
 
 @media screen and (max-width: 380px){
     .portafolio{
-        height: 660px;
+        height: 730px;
     }
 }
 
+@media screen and (max-width: 320px){
+    .portafolio{
+        height: 670px;
+    }
+}
