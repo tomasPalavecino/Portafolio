@@ -456,6 +456,15 @@ input[type="submit"]{
 
 }
 
+@media screen and (max-width:800px){
+    .contenido-textos span{
+        margin-right: 0;
+    }
+    .portafolio{
+        height: 600px;
+    }
+}
+
 @media screen and (max-width: 700px){
     .textos-header h1{
         font-size: 32px;
@@ -511,7 +520,7 @@ input[type="submit"]{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .contenedor{
         padding: 50px 0;
     }
@@ -521,8 +530,15 @@ input[type="submit"]{
         margin: 0 auto;
     }
 
+    .imagenes-about-us{
+        margin-bottom: 40px;
+    }
+    .contenido-textos p{
+        padding-bottom: 30px;
+    }
+
     .portafolio{
-        height: 650px;
+        height: 800px;
     }
 
     .contenido-textos h3{
