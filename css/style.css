@@ -565,7 +565,7 @@ input[type="submit"]{
 }
 
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 380px){
     .portafolio{
         height: 660px;
     }
