@@ -577,10 +577,10 @@ input[type="submit"]{
     }
 
     #lenguajes{
-        height: 450px;
+        height: 470px;
     }
     #lenguajes #slider{
-        height: 75vw !important;
+        height: 65vw !important;
     }
 }
 
