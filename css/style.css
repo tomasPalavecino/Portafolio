@@ -396,6 +396,12 @@ input[type="submit"]{
     .contenedor-sobre-nosotros{
         margin: 40px 0 30px;
     }
+    .businessName{
+        margin-bottom: 25px;
+    }
+    .enlace{
+        margin-bottom: 10px;
+    }
 
 }
 @media (max-width:900px){
