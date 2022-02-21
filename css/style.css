@@ -203,7 +203,7 @@ main .sobre-nosotros{
     background: #f2f2f2;
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 55vh;
 }
 
 .galeria-port{
@@ -247,8 +247,15 @@ main .sobre-nosotros{
     margin-bottom: 32px;
 }
 
+.right{
+    margin-right: 15px;
+}
+.left{
+    margin-left: 15px;
+}
+
 .enlace{
-    width: 60%;
+    width: 62%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -384,6 +391,7 @@ input[type="submit"]{
     .contenedor-sobre-nosotros{
         margin: 40px 0 30px;
     }
+
 }
 @media (max-width:900px){
 
@@ -453,7 +461,7 @@ input[type="submit"]{
     }
     .contenido-textos span{
         margin-bottom: 10px;
-        padding: 4px;
+        padding: 6px 7px 6px 6px;
     }
 
     .imagen-port{
