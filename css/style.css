@@ -631,14 +631,10 @@ input[type="submit"]{
     }
 
     .businessName{
-        font-size: 26px;
-    }
-    .enlace{
-        width: 80%;
+        font-size: 32px;
     }
     .enlace a{
-        width: 8em;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #lenguajes{
