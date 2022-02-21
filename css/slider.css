@@ -329,6 +329,9 @@
     .slide-cont{
       width: 100px;
     }
+    #slider{
+      height: 320px;
+  }
   }
 
 
