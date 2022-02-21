@@ -174,7 +174,9 @@ main .sobre-nosotros{
 }
 
 .contenido-textos p{
-    padding-bottom: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-bottom: 25px;
     font-weight: 300;
     text-align: justify;
 }
