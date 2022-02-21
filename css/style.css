@@ -392,6 +392,8 @@ input[type="submit"]{
         margin: 40px 8% 30px;
     }
 }
+
+
 @media (max-width:1100px){
     .contenedor-sobre-nosotros{
         margin: 40px 0 30px;
@@ -404,12 +406,21 @@ input[type="submit"]{
         margin-bottom: 10px;
     }
 }
+
+
+
 @media (max-width:1000px){
+    .businessName{
+        /* font-size: 30px; */
+        margin-bottom: 15px;
+    }
     .enlace{
         font-size: 13px;
         padding: 4px;
     }
 }
+
+
 @media (max-width:900px){
 
     .contenedor{
