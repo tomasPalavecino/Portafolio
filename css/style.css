@@ -519,11 +519,11 @@ input[type="submit"]{
     }
 
     #slider{
-        height: 300px;
+        height: 370px;
     }
 
     #lenguajes{
-        height: 500px;
+        height: 570px;
     }
 }
 
@@ -635,7 +635,10 @@ input[type="submit"]{
     }
 
     #lenguajes{
-        height: 470px;
+        height: 510px;
+    }
+    #slider{
+        height: 320px;
     }
 }
 
