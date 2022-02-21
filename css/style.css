@@ -519,11 +519,11 @@ input[type="submit"]{
     }
 
     #slider{
-        height: 30vw;
+        height: 300px;
     }
 
     #lenguajes{
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -573,10 +573,7 @@ input[type="submit"]{
     .portafolio{
         height: 62.5em;
     }
-    
-    #slider{
-        height: 40vw;
-    }
+
 
     /* Footer */
     input[type="text"],
@@ -640,15 +637,16 @@ input[type="submit"]{
     #lenguajes{
         height: 470px;
     }
-    #lenguajes #slider{
-        height: 65vw !important;
-    }
 }
 
 
 @media screen and (max-width: 380px){
     .portafolio{
         height: 730px;
+    }
+
+    .businessName{
+        font-size: 26px;
     }
 }
 
