@@ -511,6 +511,12 @@ input[type="submit"]{
 }
 
 @media screen and (max-width:800px){
+    .nav{
+        height: 100%;
+    }
+    .header .textos-header{
+        height: 450px;
+    }
     .contenido-textos span{
         margin-right: 0;
     }
