@@ -414,7 +414,7 @@ input[type="submit"]{
         /* font-size: 30px; */
         margin-bottom: 15px;
     }
-    .enlace{
+    .enlace a{
         font-size: 13px;
         padding: 4px;
     }
