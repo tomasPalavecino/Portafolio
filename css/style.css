@@ -397,12 +397,18 @@ input[type="submit"]{
         margin: 40px 0 30px;
     }
     .businessName{
+        font-size: 30px;
         margin-bottom: 25px;
     }
     .enlace{
         margin-bottom: 10px;
     }
-
+}
+@media (max-width:1000px){
+    .enlace{
+        font-size: 13px;
+        padding: 4px;
+    }
 }
 @media (max-width:900px){
 
