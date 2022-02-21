@@ -167,7 +167,7 @@ main .sobre-nosotros{
     text-align: center;
     width: 35px;
     height: 35px;
-    padding: 6px 5px 4px 4px;
+    padding: 6px 5px 4px 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 10px;
     font-weight: 500;
@@ -185,7 +185,7 @@ main .sobre-nosotros{
     color: #fff;
     font-weight: 300;
     background-color: #4d0686;
-    padding: 8px;
+    padding: 9px 12px;
     border-radius: 6px;
 }
 .cv:hover{
