@@ -12,7 +12,7 @@
 
             $mensajeCompleto= $msj . "\nAtentamente: " . $name;
 
-            $mail = mail($destinatario, $asunto, $email, $mensajeCompleto);
+            $mail = @mail($destinatario, $asunto, $email, $mensajeCompleto);
             
 
             if($mail){
